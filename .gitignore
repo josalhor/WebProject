@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/venv,django,python,pycharm
-# Edit at https://www.gitignore.io/?templates=venv,django,python,pycharm
+# Created by https://www.gitignore.io/api/venv,django,python,pycharm,code
+# Edit at https://www.gitignore.io/?templates=venv,django,python,pycharm,code
 
 ### Django ###
 *.log
@@ -267,4 +267,11 @@ fabric.properties
 .idea/**/markdown-navigator.xml
 .idea/**/markdown-navigator/
 
-# End of https://www.gitignore.io/api/venv,django,python,pycharm
+### Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# End of https://www.gitignore.io/api/venv,django,python,pycharm,code
