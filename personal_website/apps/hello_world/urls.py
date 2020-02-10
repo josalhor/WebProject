@@ -3,5 +3,5 @@ from django.urls import path
 from apps.hello_world.views import hello_world
 
 urlpatterns = [
-    path('', hello_world, name='hello_world_name')
+    path('hello/', hello_world, name='hello_world_name')
 ]
